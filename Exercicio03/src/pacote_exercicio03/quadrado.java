@@ -6,6 +6,8 @@ public class quadrado extends forma{
     
     public quadrado(float lado) {
         this.lado = lado;
+        //quadrado qua = new quadrado(lado);
+        
     }
 
     @Override
