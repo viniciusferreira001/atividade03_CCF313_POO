@@ -2,18 +2,11 @@ package Teste;
 import org.junit.Test;
 
 import pacote_exercicio02.automovel;
-
 import java.util.Calendar;
-
 import org.junit.Assert;
-//import org.junit.Before;
 
 public class teste {
     automovel carro = new automovel();
-    
-    //@Before
-    //carro.trocarOleo();
-
 
     @Test
     public void teste1() {
