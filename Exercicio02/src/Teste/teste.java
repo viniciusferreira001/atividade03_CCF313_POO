@@ -3,8 +3,6 @@ import org.junit.Test;
 
 import pacote_exercicio02.automovel;
 
-import static org.junit.Assert.assertArrayEquals;
-
 import java.util.Calendar;
 
 import org.junit.Assert;
