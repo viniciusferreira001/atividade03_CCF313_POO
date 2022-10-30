@@ -3,7 +3,7 @@ package pacote_exercicio02;
 import java.util.Calendar;
 
 public class automovel extends veiculo{
-    private Calendar dataOleo;
+    public Calendar dataOleo = Calendar.getInstance();
     private int numeroRodas;
     private float velocidade;
 
