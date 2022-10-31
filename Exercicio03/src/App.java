@@ -17,7 +17,9 @@ public class App {
         formas.add(f3);
 
         for (int i=0; i<formas.size(); i++){
-            System.out.println("\n\nForma " + (i+1) + "\nÁrea:" + formas.get(i).calcularArea() + "\nPerímetro:" + formas.get(i).calcularPerimetro());
+            System.out.println("\nForma"); 
+            formas.get(i).getTipo();
+            System.out.println("Área:" + formas.get(i).calcularArea() + "\nPerímetro:" + formas.get(i).calcularPerimetro());
         }
     }
 }
