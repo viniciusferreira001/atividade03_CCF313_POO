@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import pacote_exercicio03.forma;
 import pacote_exercicio03.circulo;
 import pacote_exercicio03.quadrado;
+import pacote_exercicio03.retangulo;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -12,6 +13,11 @@ public class App {
         formas.add(f1);
         forma f2 = new circulo(2);
         formas.add(f2);
-        System.out.printf("Area quadrado: %.2f", formas.get(0).calcularArea());
+        forma f3 = new retangulo(3, 5);
+        formas.add(f3);
+
+        for (int i=0; i<formas.size(); i++){
+            System.out.println("\n\nForma " + (i+1) + "\nÁrea:" + formas.get(i).calcularArea() + "\nPerímetro:" + formas.get(i).calcularPerimetro());
+        }
     }
 }
